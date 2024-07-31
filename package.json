@@ -1,0 +1,43 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "Namaste React by Akshay Saini",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeelpatel17/NamasteReact.git"
+  },
+  "author": "Jeel Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeelpatel17/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/jeelpatel17/NamasteReact#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "@testing-library/react": "^16.0.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.11.0",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.6",
+    "@testing-library/jest-dom": "^6.4.8",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-content-loader": "^7.0.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
+  }
+}
